@@ -1,0 +1,157 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+    width: 85%;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-icon {
+    box-shadow: 0 4px 20px #7a28fd49;
+}
+
+.nav-button {
+    background: linear-gradient(135deg, #7D24FE 0%, #5339F7 100%);
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    transform: translateY(-1.5px);
+    box-shadow: 0 4px 20px #7a28fd49;
+
+}
+
+.row1 {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: white !important;
+}
+
+.search-bar input {
+    padding: 14px 16px 14px 44px;
+}
+
+.x-small {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+section {
+    background-color: #F8FAFC;
+}
+
+.box {
+    background-color: white;
+}
+
+.black-hover {
+    transition: all 0.2s ease;
+}
+
+.black-hover:hover {
+    color: black !important;
+    background-color: rgb(227, 227, 227);
+    border-radius: 15px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    padding:16px;
+    position: fixed;
+    z-index: 2;
+    inset: 0; 
+}
+
+.inner{
+    border-radius: 20px;
+    overflow-y: auto; 
+    height: 95%;
+}
+.form-title{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+form{
+    padding: 24px;
+}
+textarea{
+    resize: none; 
+}
+.form-button{
+    padding:12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border:0;
+    border-radius: 12px;
+}
+.x-icon{
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.x-icon:hover{
+    background-color: #e7eaed;
+    color: black !important;
+}
+.big-box{
+    border-radius: 20px;
+}
+.first-left-box, .first-left-box .call, .second-left-box, .second-left-box .call-red,
+.phone-hover, .email-hover, .trash-hover, .pen-hover, .heart-hover, .star-hover, .change-photo-btn{
+    transition:all 0.3s ease ;
+}
+
+.change-photo-btn:hover{
+    background-color: #E5E7EB !important;
+}
+
+.first-left-box:hover{
+    background-color: #FFF7EC !important;
+}
+
+.first-left-box:hover .call{
+    background-color: #009966 !important;
+    color: white !important;
+}
+
+.second-left-box:hover{
+    background-color: #FEF2F2 !important;
+}
+.second-left-box:hover .call-red{
+    background-color: #EC003F !important;
+    color: white !important;
+}
+.phone-hover:hover{
+    background-color: #82ceb3 !important;
+}
+.email-hover:hover{
+    background-color: #caa7fe !important;
+}
+.trash-hover:hover , .heart-hover:hover{
+    color: red !important;
+}
+.pen-hover:hover{
+    color: blue !important;
+}
+.star-hover:hover{
+    color: #FFB900 !important;
+}
