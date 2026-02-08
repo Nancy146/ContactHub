@@ -675,3 +675,6 @@ function validationEmail() {
     }
 
 }
+
+
+console.log(3 > 2 > 1)
